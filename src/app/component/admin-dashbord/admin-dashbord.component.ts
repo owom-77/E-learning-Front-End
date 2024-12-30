@@ -13,8 +13,8 @@ import { PostFormComponent } from '../post-form/post-form.component';
 })
 export class AdminDashbordComponent implements OnInit {
   showPostForm: boolean = false;
-  courses: any[] = []; // List of courses
-  selectedCourseId: string = ''; // To track the selected course for editing
+  courses: any[] = []; 
+  selectedCourseId: string = ''; 
 
   constructor(private courseService: CourseService, private router: Router) {}
 
